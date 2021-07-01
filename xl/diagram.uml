@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="28.0" y="0.0">util.Adjustment</node>
+    <node x="277.0" y="0.0">modell.SlotError</node>
+    <node x="466.0" y="101.0">factories.CommentFactory</node>
+    <node x="562.0" y="0.0">factories.SlotFactory</node>
+    <node x="0.0" y="345.0">util.NumberAdjustment</node>
+    <node x="648.0" y="101.0">factories.ExpressionFactory</node>
+    <node x="258.0" y="169.0">modell.CurrentSlot</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factories.CommentFactory" target="factories.SlotFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="547.0" y="76.0" />
+      <point x="602.5" y="76.0" />
+      <point x="-40.5" y="25.5" />
+    </edge>
+    <edge source="util.NumberAdjustment" target="util.Adjustment">
+      <point x="71.0" y="-125.5" />
+      <point x="177.5" y="320.0" />
+      <point x="158.83333333333334" y="320.0" />
+      <point x="52.33333333333334" y="147.5" />
+    </edge>
+    <edge source="modell.CurrentSlot" target="modell.SlotError">
+      <point x="-40.75" y="-71.0" />
+      <point x="298.75" y="144.0" />
+      <point x="308.25" y="144.0" />
+      <point x="-31.25" y="59.5" />
+    </edge>
+    <edge source="factories.ExpressionFactory" target="factories.SlotFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="739.0" y="76.0" />
+      <point x="683.5" y="76.0" />
+      <point x="40.5" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6528342501793829" x="1383.9607377631694" y="840.784987304708" />
+  <SelectedNodes>
+    <node>util.Adjustment</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
